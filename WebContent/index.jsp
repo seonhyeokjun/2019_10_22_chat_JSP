@@ -50,6 +50,15 @@
 </head>
 <body>
 	<%@ include file="nav_list.jsp" %>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1>웹 사이트 소개</h1>
+				<p>이 웹사이트는 부트스트랩으로 만든 jsp 웹 사이트 입니다. 사용자들이 편리하게 이용할수 있도록 개발했습니다. 디자인 템플릿으로 부트스트랩을 이용했습니다.</p>
+				<p><a class="btn btn-primary btn-pull" href="login.jsp" role="button">로그인</a></p>
+			</div>
+		</div>
+	</div>
 	<%
 		String messageContent = null;
 		if(session.getAttribute("messageContent") != null){
