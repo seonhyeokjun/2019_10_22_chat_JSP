@@ -1,9 +1,29 @@
 # 데모사이트
 jsp를 통해 제작한 관리자 사이트입니다. 기본적인 로그인과 로그아웃 그리고 게시판 기능과 채팅, 사이트평가 구현해놨습니다. 화면은 BOOTSTRAP를 통해 작업했고 데이터베이스는 MySQL를 이용 했습니다.
+[데모사이트]http://15.164.228.99:8080/UserChat/index.jsp
+
 # ERD 설계
 ![스크린샷 2019-09-26 오전 6 22 30](https://user-images.githubusercontent.com/37436822/65640902-5f137300-e026-11e9-8bf3-232c473636bc.png)
 
 총 5개의 테이블을 만들고 1:N, N:1의 관계를 통해 설계했습니다.
+# 개발환경
+* java
+* jsp
+* javascript
+* jquery
+* mysql
+* bootstrap
+* css
+* aws
+* tomcat
+# 주요기능
+* 자유게시판 CRUD
+* 게시판 댓글 , 파일업로드
+* 회원가입
+* 로그인,ID 찾기
+* xss 공격 방어
+* 사이트 평가
+* 채팅
 # 작업방식
 프론트 환경은 BOOTSTRAP를 사용하여 작성하였으며 주로 Javascript로 작업하였습니다. 그 외 필요한 부분들은 jQuery를 사용했습니다. 데이터베이스는 MySQL를 통해 스키마를 설계하였습니다.
 
