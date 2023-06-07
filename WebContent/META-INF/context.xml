@@ -8,7 +8,7 @@
 	validationQuery="SELECT 1 FROM DUAL"
 	maxWait="5000"
 	username="tjsgurwns"
-	password="sggs8822"
+	password="****"
 	testOnBorrow="true"
 	url="jdbc:mysql://hello-mysql.crley0fvlyvj.ap-northeast-2.rds.amazonaws.com:3306/UserChat"/>
 <ResourceLink type="javax.sql.data.DataSource"
